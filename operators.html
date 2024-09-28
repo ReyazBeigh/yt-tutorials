@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators</title>
+</head>
+
+<body>
+    <script>
+
+        // AND &&
+
+        let age = 20;
+        let hasLicense = true;
+        document.writeln("<br/> Can drive? ", (age > 18 && hasLicense));
+
+
+        // OR ||
+        let isHoliday = false;
+        let isWeekend = false;
+
+        document.writeln("<br/> Employee can stay at home? ", (isHoliday || isWeekend))
+
+        // !
+
+        let todayIsSunnyDay = false;
+        document.writeln("<br/> todayIsSunnyDay? ", !todayIsSunnyDay)
+
+        // addition operation 
+        let sum = 10 + 15;
+        document.write("<br/>25 Sum: " + sum);
+
+        // subtraction operation 
+        let diff = 10 - 5;
+        document.write("<br/>5 Diff: " + diff);
+
+        // multiplication operation 
+        let product = 10 * 5;
+
+        document.write("<br/>50 Product: " + product);
+
+        // division operation 
+        let quotent = 10 / 5;
+        document.write("<br/>2 Quotent: " + quotent);
+
+        let reminder = 10 % 3;
+        document.write("<br/>1 Reminder: " + reminder);
+
+        // equals ==
+        document.write("<br/>Is 5 equal to 5? " + (5 == '5'));
+
+        // strict equals ===
+        document.write("<br/>Is 5 equal to '5'? " + (5 === '5'));
+
+        // not equal to
+        document.write("<br/>Is 5 not equal to 3? " + (5 != 3));
+
+        // less than and great than
+        document.write("<br/>Is 5 greater than 3 " + (5 > 3));
+        document.write("<br/>Is 5 less than 3 " + (5 < 3));
+
+    </script>
+</body>
+
+</html>
