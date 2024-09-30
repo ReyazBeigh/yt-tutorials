@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+
+<body>
+    <script>
+        /*
+            i=1;true;
+            ;true ; 2
+              ;true ; 3
+                ;true ; 4
+                  ;true ; 5
+                  ;false ; 6
+        */
+        for (
+            let i = 1;// part 1
+            i <= 0;// part 2
+            i = i + 1// part 3
+        ) {
+
+            document.writeln(i, "<br/>");
+        }
+
+        let y = 1;
+        while (y <= 5) {
+            document.writeln(y, "<br/>");
+            y = y + 1;
+        }
+
+
+        let z = 1;
+        do {
+            document.writeln(z, "<br/>");
+            z++;
+        } while (z <= 6);
+    </script>
+</body>
+
+</html>
